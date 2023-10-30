@@ -6,6 +6,7 @@ import Theming from './Pages/Theming';
 import {createTheme , ThemeProvider} from '@mui/material/styles'
 import Text_Field from './Pages/TextField';
 import MUIForm from './Pages/MUI-Form';
+import Notes from './Pages/Notes';
 
 const theme = createTheme({
   palette: {
@@ -28,6 +29,7 @@ function App() {
       <BrowserRouter>
       <Routes>
         <Route path='/button' element={<Button />} />
+        <Route path='/notes' element={<Notes />} />
         <Route path='/typography' element={<Typography />} />
         <Route path='/theming' element={<Theming />} />
         <Route path='/textField' element={<Text_Field />} />

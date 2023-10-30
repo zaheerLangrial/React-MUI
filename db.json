@@ -1,0 +1,16 @@
+{
+  "Notes": [
+    {
+      "id": 1,
+      "email": "json-server",
+      "password": "typicode",
+      "gender": "Man"
+    },
+    {
+      "id": 2,
+      "email": "ShahzaibAhmadLangrial@gmail.com",
+      "password": "ryuthrhd",
+      "gander": "male"
+    }
+  ]
+}
