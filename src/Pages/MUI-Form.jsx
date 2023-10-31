@@ -1,8 +1,10 @@
 import { Button, Container, FormControl, FormControlLabel, FormLabel, Radio, RadioGroup, TextField, Typography } from "@mui/material";
 import React, { useEffect, useState } from "react";
 import axios from 'axios'
+import {useNavigate} from 'react-router-dom'
 
 function MUIForm() {
+  const navigate = useNavigate()
     const [serverData , setServerData] = useState([])
     const [email , setEmail] = useState('');
     const [password , setPassword] = useState('')
@@ -17,14 +19,10 @@ function MUIForm() {
     const dataGetForObjLength = async () => {
         const res = await axios.get('http://localhost:3000/Notes')
         setServerData(res.data)
-        console.log(res.data)
     }
 
     const handleSubmit = (e) => {
         e.preventDefault();
-        console.log('Your Email : ' , email);
-        console.log('Your Password : ' , password)
-        console.log('Your Gender : ' , gander)
         const obj = {
             id : serverData.length + 1,
             email : email,
@@ -32,6 +30,7 @@ function MUIForm() {
             gander : gander
         }
         handlePost(obj)
+        navigate('/notes')
     }
   return (
     <Container>

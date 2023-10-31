@@ -2,14 +2,44 @@
   "Notes": [
     {
       "id": 1,
-      "email": "json-server",
-      "password": "typicode",
-      "gender": "Man"
+      "email": "ShahzaibAhmadLangrial@gmail.com",
+      "password": "ryuthrhd",
+      "gander": "male"
     },
     {
       "id": 2,
+      "email": "zaheerlangrila54@gmail.com",
+      "password": "bsutiub333",
+      "gander": "male"
+    },
+    {
+      "id": 3,
+      "email": "zaheerlangrila54@gmail.com",
+      "password": "bit333",
+      "gander": "male"
+    },
+    {
+      "id": 4,
+      "email": "HamzaSial55@gmail.com",
+      "password": "hamza123",
+      "gander": "male"
+    },
+    {
+      "id": 5,
+      "email": "asadAkmal@gmail.com",
+      "password": "asad1234",
+      "gander": "male"
+    },
+    {
+      "id": 6,
       "email": "ShahzaibAhmadLangrial@gmail.com",
-      "password": "ryuthrhd",
+      "password": "afdaadf",
+      "gander": "male"
+    },
+    {
+      "id": 7,
+      "email": "adnanjutt@gmail.com",
+      "password": "adnan123",
       "gander": "male"
     }
   ]
